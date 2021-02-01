@@ -1,0 +1,5 @@
+\nomenclatureentry{aWord@[{Word}]\begingroup गण\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aBit@[{Bit}]\begingroup मात्रा\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aByte@[{Byte}]\begingroup अष्टगण\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aNibble@[{Nibble}]\begingroup चतुर्गण\nomeqref {0.0.0}|nompageref}{1}
+\nomenclatureentry{aBaud@[{Baud}]\begingroup द्विगण\nomeqref {0.0.0}|nompageref}{1}

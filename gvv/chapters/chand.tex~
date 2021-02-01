@@ -1,0 +1,64 @@
+\subsection{दोहा}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item   निम्न पंक्तियां एक किंवदंती है जिनमें  गोस्वामी तुलसीदास एवं श्री रहीम का  भावपूर्ण संवाद प्रस्तुत है।   तुलसीदासजी श्री रहीम से कहते हैं:
+\label{chand:one}
+\begin{flushleft}
+सीखे कहाँ रहीम जी, देनी ऐसी देन। 
+\\
+ज्यों ज्यों कर ऊपर उठत, त्यों त्यों नीचे नैन? ॥
+\end{flushleft}
+अर्थात: रहीम जी, यह दानगुण आप कहाँ से सीखे? दान देने के लिए हस्त उन्नत होते हैं, किन्तु नयन विनयशीलता  से नमन रहते  हैं। 
+\\
+श्री रहीम का उत्तर है:
+\begin{flushleft}
+देनहार कोइ और है,  देत रहत दिन रैन। 
+\\
+लोग भरम हम पर धरत, ता सों नीचे नैन ॥
+\end{flushleft}
+अर्थात: दानी कोई और है, जो दिन-रात देता रहता है। किन्तु जनता इस भ्रम में रहती है कि हम दानी हैं, इस कारण नयन अवनत रहते हैं। 
+\item प्रथम छन्द  में 4 चरण हैं।   इसके समस्त चरणों  के अक्षरों का मात्राभार सारणी. \ref{table:maatraabhar} में उपलब्ध है। 
+स्पष्ट है कि इसके विषम चरणों (प्रथम तथा तृतीय) में 13-13 मात्राएँ और सम चरणों (द्वितीय तथा चतुर्थ) में 11-11 मात्राएँ हैं। इस प्रकार के छन्द को दोहा कहते हैं। 
+\begin{table}[!ht]
+\centering
+\input{tables/vaarnik_bhaar/hindi_unicode_weight-1-Sheet2.tex}
+\caption{}
+\label{table:maatraabhar}
+\end{table}
+\item  सारणी. \ref{table:maatraabhar3} में अक्षर समूह के मात्रा विच्छेद से प्रत्येक मात्रा का भार तथा चरण की मात्रा गणना विधि का बोध होता है। 
+\begin{table}[!ht]
+\centering
+\input{tables/vaarnik_bhaar/hindi_unicode_weight-2-Sheet3.tex}
+\caption{}
+\label{table:maatraabhar3}
+\end{table}
+
+\item प्रश्न \ref{chand:one} के द्वितीय दोहे का मात्राभार विश्लेषण कीजिये। 
+\item संगणक क्रमादेश के द्वारा उपरोक्त छंदों  के चरणों की मात्रा गणना कर स्थापित कीजिये कि यह छन्द वास्तव में दोहे हैं। 
+\end{enumerate}
+
+	
+\subsection{चौपाई}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item  संगणक संविधि के द्वारा सत्यापित कीजिये की निम्न छंदों के प्रत्येक चरण का मात्रायोग 16 है।  यह छन्द गोस्वामी तुलसीदास द्वारा रचित रामचरित मानस से लिया गया है।   इस प्रकार के 4 चरणों वाले छन्द को चौपाई कहते हैं। 
+\begin{center}
+जय हनुमान ज्ञान गुण सागर ।
+\\
+जय कपीश तिहु लॊक उजागर ॥ 1 ॥
+\\
+रामदूत अतुलित बलधामा ।
+\\
+अञ्जनि पुत्र पवनसुत नामा ॥ 2 ॥
+\end{center}
+\item हस्तक्रिया से सत्यापित कीजिये कि उपरोक्त छन्द वास्तव में चौपाई है। 
+
+\end{enumerate}

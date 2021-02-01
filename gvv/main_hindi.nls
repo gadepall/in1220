@@ -1,0 +1,10 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{Baud}]\begingroup द्विगण\nomeqref {0.0.0}\nompageref{1}
+  \item [{Bit}]\begingroup मात्रा\nomeqref {0.0.0}\nompageref{1}
+  \item [{Byte}]\begingroup अष्टगण\nomeqref {0.0.0}\nompageref{1}
+  \item [{Nibble}]\begingroup चतुर्गण\nomeqref {0.0.0}\nompageref{1}
+  \item [{Word}]\begingroup गण\nomeqref {0.0.0}\nompageref{1}
+
+\end{thenomenclature}
