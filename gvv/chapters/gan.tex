@@ -1,0 +1,69 @@
+
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+\item छन्दशास्त्र में मात्राओं और वर्णों की संख्या और क्रम की सुविधा के लिये तीन वर्णों के समूह को एक गण मान लिया जाता है।   बूलीय बीजगणित में द्विआधारी संख्याओं  के द्वारा इसका सामान्यीकरण किया गया है।   गणों की वर्ण संख्या 3 से कम या अधिक भी हो सकती है।   बूलीय गणित में । को 0 एवं ऽ को 1  से नियोजित किया गया है। सारणी. \ref{table:3bit} में इसका वर्णन है। 
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+नाम & त्रिगण & बूलीय प्रतिरूप & दशमलव अंक  & चर\\ \hline
+नगण   &   ।।। &  000 & 0 & $s_0$\\ \hline
+सगण  &  ।।ऽ &  001 & 1 & $s_1$\\ \hline
+जगण  &  ।ऽ। & 010  & 2 & $s_2$\\ \hline
+यगण   &  ।ऽऽ &   011 & 3 & $s_3$\\ \hline
+ भगण &   ऽ।। &  100 & 4  & $s_4$\\ \hline
+रगण  & ऽ।ऽ  &   101 & 5  & $s_5$\\ \hline
+तगण  &  ऽऽ। &  110  & 6 & $s_6$\\ \hline
+मगण  &  ऽऽऽ &  111 & 7 & $s_7$\\ \hline
+\end{tabular}
+\caption{}
+\label{table:3bit}
+\end{table}
+\item त्रिगण से दशमलव परिवर्तन निम्न सूत्र के द्वारा उपलब्ध है। 
+\begin{align}
+\label{eq:bin2dec}
+x = b_0 + b_1\times 2 + b_2 \times 2^2
+\end{align}
+उदहरण के लिए,  यगण में $b_0 = 1, b_1 = 1, b_2 = 0 $ हैं.  समीकरण \eqref{eq:bin2dec} में प्रतिस्थापित करने पर 
+\begin{align}
+\label{eq:bin2dec}
+x = 1 + 1\times 2 + 0 \times 2^2 = 1 + 2 = 3
+\end{align}
+%
+जो सारणी \ref{table:3bit} को सत्यापित करता है। 
+\item \eqref{eq:bin2dec} को  सी-क्रमादेश के द्वारा क्रियान्वित कर  सारणी. \ref{table:3bit} को प्राप्त करें। 
+\item    सारणी \ref{table:maatraabhar} व \ref{table:3bit} के द्वारा  निम्न चरण 
+\label{chand:one}
+\begin{flushleft}
+सीखे कहाँ रहीम जी
+\end{flushleft}
+ का द्विआधारी गण रूप है 
+\begin{align}
+%\label{eq:bin2dec}
+11010101
+\end{align}
+\item इसी प्रकार 
+\begin{flushleft}
+देनी ऐसी देन
+\end{flushleft}
+ का द्विआधारी गण रूप है 
+\begin{align}
+%\label{eq:bin2dec}
+111110
+\end{align}
+तथा त्रिगण रूप है 
+\begin{align}
+%\label{eq:bin2dec}
+s_7s_6
+\end{align}
+%
+\item इस लेख में समस्त दोहे/चौपाई के द्विआधारी गणरूप ज्ञात कीजिये। 
+\item उपरोक्त अभ्यास को संगणिक क्रमादेश के द्वारा क्रियान्वित कीजिये। 
+
+\end{enumerate}
+

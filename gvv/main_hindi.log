@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  1 FEB 2021 22:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Termux) (preloaded format=xelatex 2020.12.28)  2 FEB 2021 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1989,7 +1989,14 @@ ex-text;"
 Package Listings Warning: Unknown column format `fullflexible literate' on inpu
 t line 108.
 
-(./main_hindi.aux)
+(./main_hindi.aux
+
+LaTeX Warning: Label `eq:bin2dec' multiply defined.
+
+
+LaTeX Warning: Label `chand:one' multiply defined.
+
+)
 \openout1 = `main_hindi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 115.
@@ -2228,48 +2235,32 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 \gnumericColJ=\skip106
 \gnumericColK=\skip107
 )
-(./tables/vaarnik_bhaar/hindi_unicode_weight-2-Sheet3.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+(./tables/vaarnik_bhaar/hindi_unicode_weight-2-Sheet3.tex) [1
 
 
 ])
-(./chapters/doha.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--11
-[]\TU/Sanskrit_2003.ttf(0)/m/sc/12 चौपाई मात्रिक सम छंद है। इसके प्रत्येक
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--11
-\TU/Sanskrit_2003.ttf(0)/m/sc/12 चरण में 16-16 मात्राएँ होती हैं। सिंह
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--11
-\TU/Sanskrit_2003.ttf(0)/m/sc/12 विलोकित, पद्धरि, अरिल्ल, अड़िल्ल, पादाकुलक आदि
- छंद
- []
-
-) (./main_hindi.bbl) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+(./chapters/gan.tex) (./main_hindi.bbl) [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
  (./main_hindi.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `main_hindi.out' has not changed.
-(rerunfilecheck)             Checksum: 2CAE3E5C93D0ED41B0918B9D0B958559;565.
+(rerunfilecheck)             Checksum: 3A1BFD5D4319FC88AEE1E7DC6536ECF3;313.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 49380 strings out of 479418
- 1156137 string characters out of 5874903
+ 49381 strings out of 479418
+ 1156145 string characters out of 5874903
  1663093 words of memory out of 5000000
- 65951 multiletter control sequences out of 15000+600000
+ 65952 multiletter control sequences out of 15000+600000
  559448 words of font info for 125 fonts, out of 8000000 for 9000
  1351 hyphenation exceptions out of 8191
  60i,12n,91p,673b,863s stack positions out of 5000i,500n,10000p,200000b,80000s
